@@ -1,6 +1,6 @@
 public class animal {
-    private String name;
-    private int id;
+    private final String name;
+    private final int id;
 
     public animal(String myName, int myid) {
         name = myName;

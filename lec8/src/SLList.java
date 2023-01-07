@@ -4,7 +4,7 @@
  */
 public class SLList<Item> {
     /* The first item (if it exists) is at sentinel.next. */
-    private IntNode sentinel;
+    private final IntNode sentinel;
     private int size;
     /**
      * Creates an empty timingtest.SLList.
@@ -22,12 +22,12 @@ public class SLList<Item> {
 
     public static void main(String[] args) {
         /* Creates a list of one integer, namely 10 */
-        SLList L = new SLList();
+        SLList<Integer> L = new SLList<Integer>();
         L.addLast(20);
         System.out.println(L.size());
     }
 
-    public Item get(int i) {
+    public Item get() {
         return sentinel.item;
     }
 
