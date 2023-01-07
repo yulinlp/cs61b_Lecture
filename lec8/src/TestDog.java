@@ -1,22 +1,23 @@
 import java.util.ArrayList;
 
-class Animal{
-    public void move(){
+class Animal {
+    public void move() {
         System.out.println("动物可以移动");
     }
 }
 
-class Dog extends Animal{
-    public void move(){
+class Dog extends Animal {
+    public void move() {
         System.out.println("狗可以跑和走");
     }
-    public void bark(){
+
+    public void bark() {
         System.out.println("狗可以吠叫");
     }
 }
 
-public class TestDog{
-    public static void main(String args[]){
+public class TestDog {
+    public static void main(String args[]) {
         Animal a = new Animal(); // Animal 对象
         Dog b = new Dog(); // Dog 对象
 

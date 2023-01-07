@@ -1,18 +1,19 @@
+// 接口文件的方法不需要加public
 public interface List61B<Item> {
-    public void addLast(Item x);
+    void addLast(Item x);
 
-    public void addFirst(Item x);
+    void addFirst(Item x);
 
-    public Item getLast();
+    Item getLast();
 
-    public Item getFirst();
+    Item getFirst();
 
-    public Item get(int i);
+    Item get(int i);
 
-    public int size();
+    int size();
 
-    public Item removeLast();
+    Item removeLast();
 
-    public void Insert(Item x,int position);
+    void Insert(Item x, int position);
 
 }
