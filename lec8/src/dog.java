@@ -10,7 +10,7 @@ public class dog extends animal {
 }
 
 class test {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         dog d = new dog("a", 666);
         d.eat();
         d.extra();
